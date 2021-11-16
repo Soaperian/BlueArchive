@@ -209,7 +209,7 @@ def gacha(tm, rst):
             randsleep(0.1, 0.3)
             scr_img = background_screenshot(bluestackhw, 960, 572)
             clickhere = pyautogui.locate(img_everyday, scr_img, confidence=0.8)
-            clickd(620, 140, 710, 160)
+            clickd(770, 120, 780, 125)
             if clickhere is not None:
                 randsleep(0.4, 0.5)
                 # clickd(536,397,639,434)
